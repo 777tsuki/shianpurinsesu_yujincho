@@ -12,14 +12,6 @@
 		Index,
 	};
 
-	// $ctrl = {
-	// 	page: (p) => {
-	// 		$page = "loading";
-	// 		$loading = true;
-	// 		setTimeout((_) => ($page = p), 300);
-	// 	},
-	// };
-
 	window.deepCopy = (obj) => {
 		if (Array.isArray(obj)) {
 			let arr = obj;
